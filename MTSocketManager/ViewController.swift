@@ -13,10 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        MTSocketManager.manager.baseURL = "http://47.99.85.87:3000/map"
-        MTSocketManager.manager.connect()
+        MTSocketManager.manager.start()
     }
-
-
 }
 
